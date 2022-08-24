@@ -8,9 +8,9 @@ jobs:
     strategy:
       matrix:
         BASE_IMG_TAG: [
-          cuda-11.3.1-pytorch-1.12.0-torchvision-0.12.0-torchaudio-0.11.0-ubuntu-20.04,
-          cuda-11.3.1-pytorch-1.11.0-torchvision-0.12.0-torchaudio-0.11.0-ubuntu-20.04,
-          cuda-11.6.1-pytorch-1.12.0-torchvision-0.12.0-torchaudio-0.11.0-ubuntu-20.04,
+          ccuda-11.3.1-pytorch-1.11.0-torchvision-0.12.0-torchaudio-0.11.0-ubuntu-20.04,
+          cuda-11.3.1-pytorch-1.12.1-torchvision-0.13.1-torchaudio-0.12.1-ubuntu-20.04,
+          cuda-11.6.1-pytorch-1.12.1-torchvision-0.13.1-torchaudio-0.12.1-ubuntu-20.04,
           cuda-11.6.1-pytorch-1.11.0-torchvision-0.12.0-torchaudio-0.11.0-ubuntu-20.04
           ]
 
